@@ -395,3 +395,5 @@ async function emailSent(Body, generate) {
     res.status(200).send({ message: "Mail send", message_id: info.messageId });
   });
 }
+
+// there is a value in this code which is needed
